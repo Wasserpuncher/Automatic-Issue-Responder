@@ -46,3 +46,10 @@ Feel free to fork this repository and contribute by submitting pull requests. Fo
 
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+### Explanation
+- **Monitoring Issues**: The bot monitors all open issues in the specified repository using the GitHub API.
+- **Analyzing Content**: It analyzes the content of each issue (title and body) for predefined keywords using regular expressions.
+- **Posting Responses**: If a keyword is found in the issue content, the bot posts a predefined response as a comment on the issue.
+
+This script provides a basic implementation and can be extended with more sophisticated text analysis techniques and more comprehensive keyword-response pairs. Additionally, you can set up a scheduler (e.g., using `cron` or a task scheduler) to run the script periodically and keep it active.
